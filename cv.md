@@ -8,7 +8,7 @@ permalink: /cv/index.html
 
 ## University of Cambridge, Department of Engineering
 
-### Research Associate, The Centre for Sustainable Road Freight Sep. 2013–present
+### Senior Research Associate, The Centre for Sustainable Road Freight Sep. 2013–present
 
 Developing computer vision and data analysis algorithms for recognising and
 tracking cars from a traffic camera feed between sites. Developing Dual-Tree
