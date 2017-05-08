@@ -49,6 +49,94 @@ calculations performed via GPU and CPU co-operation. Developed a practical,
 real-world system for lighting now in use in well known game titles such as
 Battlefield 3 and Need for Speed: The Run.
 
+# Experience
+
+I have a great deal of experience in various programming languages including C,
+C++, JavaScript and Python and have a passion for writing good, clean and
+well-tested code. In addition, I have an Academic background in Machine
+Learning, Computer Vision and Artificial Intelligence.  I've contributed to a
+number of Open Source projects to greater or lesser degrees and my GitHub
+account https://github.com/rjw57 has a large number of repositories which give
+an overview of my areas of knowledge.
+
+## Popular Open Source Projects
+
+Open Source projects which I created and which are sufficiently
+widely used to be packaged in the popular Debian distribution of Linux.
+
+### libdvdnav
+
+This is written
+in C and was a project I started to provide support for DVD navigation in Open
+Source projects. At the time, I was a committer to the xine media player project
+and the library was created as a re-usable off-shoot from the DVD playback
+functionality I was adding. The library forms the core of the vast majority of
+Open Source DVD playback programs. In addition to parsing the somewhat baroque
+binary data structures used by the DVD Video format it also contains an
+implementation of the DVD Virtual Machine used to execute navigation programs.
+The library is now maintained by the mplayer project.
+
+### dtcwt
+
+The ``dtcwt`` module for Python which is hosted at
+https://github.com/rjw57/dtcwt. It implements a particular technique in signal
+processing known as the *Dual-Tree Complex Wavelet Transform* (DT-CWT). This
+is used in computer vision, image processing and financial time series analysis.
+The library has multiple performant implementations of the numerically intensive
+DT-CWT algorithm for both CPU and GPU via OpenCL. I am mentoring a PhD student
+who is providing a further implementation using Tensorflow, a framework which is
+popular in the Machine Learning and Artificial Intelligence field.
+
+Each pull request for the dtcwt library is tested via a Continuous Integration
+system which ensures correct functionality via a test suite and code coverage
+check. Documentation is automatically built and is available on the web. The
+library is structured so that it may be installed automatically using the
+standard Python ``pip`` tool. I passionately believe that software must be
+packaged, documented and tested well in order to be useful and I use the dtcwt
+module as an example to my students on how much quality assurance infrastructure
+is available in the cloud.
+
+## Invited talks
+
+I am a confident public speaker and was invited to give the keynote talk at
+last year's *Diamond Developer Day*. The event was a conference of all of the
+research software engineers for the UK's largest particle accelerator. I gave a
+talk on software quality engineering in an Academic environment which was very
+well received.
+
+## Other experience
+
+I am passionate about the history of computing and the history of programming
+languages in particular. In order to learn more about compilers, I wrote a toy
+compiler for the B programming language which was the direct predecessor of
+the well-known C language. The compiler is available at
+https://github.com/rjw57/rbc and uses the powerful LLVM compiler
+infrastructure. It was intended as a teaching aid for compiler implementation
+and formed the core of a talk I gave last year at the Cambridge Python Users
+Group.
+
+In order to learn electronics and to practice low-level and embedded
+programming, I decided to create my own computer from scratch. The result is the
+Búri microcomputer system (https://github.com/rjw57/buri) which is a 6502-based
+computer system with an Operating System written in 6502 assembler. The latest
+version of the hardware uses a 65816 CPU with 512K of memory and has an
+in-development video card.
+
+As a more modern example, I co-designed and programmed an embedded inertial
+measurement unit as part of Cambridge University Spaceflight. This credit-card
+sized module integrated an STM32 microcontroller with various inertial, GPS and
+magnetic sensors to provide a real time estimate of spacecraft attitude and
+position. In essence it was a modern-day Apollo guidance computer.
+
+I've tried to keep myself abreast of modern web development and am reasonably
+fluent in JavaScript. I have personal relationships with some people who work
+for the Portable Antiquities Scheme (PAS) and have created a couple of web apps
+related to their work which may be found at
+http://rjw57.github.io/findmyflo/ and http://rjw57.github.io/pas-measure/.
+I've contributed to the Open Source PAS database project. I've experience with
+React, WebPack and AngularJS all of which I've used for various internal work
+projects and some personal web app projects.
+
 # Education
 
 ## University of Cambridge
